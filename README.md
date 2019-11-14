@@ -1,2 +1,2 @@
 # BlackJack
-Yet another primitive Black Jack game implementation
+Yet another primitive Black Jack game implementation.
