@@ -2,7 +2,7 @@
 Yet another primitive Black Jack game implementation.
 
 ## Requirement
-  + Python 3.7.3
+  + python==3.7.3
 
 ## Features:
   + If-Else AI
