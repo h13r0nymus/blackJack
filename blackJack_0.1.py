@@ -114,10 +114,12 @@ def initialize():
         player_seq()
     if start.choice == "n":
         comp_seq()
-    else:
+    elif start.choice == "done":
         print ("Thank you for playing")
         print('\nFinal score: ' + str(start.user_win) + ':' + str(start.comp_win))
         __name__ == False
+        exit() # duct tape. Prevents multiple output in "done" case. This fixes the problem, but I haven't
+               # figured out what is the cause of it.
 
 def start():
     start.user_win = 0
